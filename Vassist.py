@@ -5,7 +5,7 @@ import os
 import openai
 
 # Set up OpenAI ChatGPT
-openai.api_key = "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"
+openai.api_key = "Your_key_here"
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 #engine.setProperty('voice', voices[0].id)
